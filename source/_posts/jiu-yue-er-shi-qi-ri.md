@@ -1,0 +1,14 @@
+---
+title: 九月二十七日
+id: 134
+date: 2016-09-27 21:30:31
+tags:
+---
+
+一天的课。
+
+下午机械制图和思修水掉了。
+
+晚上的图书馆培训。顺手拍了几张夜景，发现调焦距真好玩啊。
+
+![20160927_200552](http://eremite-1252628011.cossh.myqcloud.com/wp-content/uploads/2016/09/20160927_200552.jpg)![20160927_212348](http://eremite-1252628011.cossh.myqcloud.com/wp-content/uploads/2016/09/20160927_212348.jpg)
