@@ -86,8 +86,7 @@ algolia:
   applicationID: YO22KGKMKT
   indexName: hexo
   chunkSize: 5000
-  apiKey: f052be79a215846877d13eea78c12b5c
-  adminApiKey: 22b3d45b5fe3885a23787d28083e378b
+
 
   feed:
   type: atom
