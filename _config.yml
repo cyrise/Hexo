@@ -82,20 +82,13 @@ deploy:
  repo: git@git.coding.net:eremite/hexo.git,master
  message: blog update
 
-algolia:
-  applicationID: YO22KGKMKT
-  indexName: hexo
-  chunkSize: 5000
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 
-  feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
 
 backup:
     type: git
