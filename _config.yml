@@ -89,7 +89,6 @@ search:
   limit: 10000
 
 
-
 backup:
     type: git
     theme: coney,landscape,next
