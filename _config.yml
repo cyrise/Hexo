@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Cyrise
+title: iCyrise
 subtitle: 陈厌起不早
 description: 陈厌起不早
 keywords:
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://cyrise.cn/
+url: https://iCyrise.com/
 root: /
 permalink: archives/:id
 permalink_defaults: :id
