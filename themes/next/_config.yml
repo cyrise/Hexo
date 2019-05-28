@@ -152,7 +152,7 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  微博: https://weibo.com/5117186362 || weibo
+  微博: https://weibo.com/iCyrise || weibo
   知乎: https://www.zhihu.com/people/eremiter || quora
   哔哩哔哩: https://space.bilibili.com/8047851 || tv
   GitHub: https://github.com/cyrise || github
