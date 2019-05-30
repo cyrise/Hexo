@@ -53,7 +53,7 @@
   <div class="theme-info">{#
   #}{{ __('footer.theme') }} &mdash; {#
   #}<a class="theme-link" target="_blank"{{ nofollow }} href="https://github.com/theme-next/hexo-theme-next">{#
-    #}NexT{#
+    #}Next{#
   #}</a>{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}{#
 #}
 </div>
@@ -64,4 +64,4 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
-<p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+<p>Hosted by <a href="https://pages.coding.me">Coding Pages</a></p>
