@@ -64,10 +64,11 @@ Please note the difference between **site config file** and **theme config file*
   var query = new AV.Query("Counter");
   if (request.object.updatedKeys.indexOf('time') !== -1) {
       return query.get(request.object.id).then(function (obj) {
-          if (obj.get("time") + 1 !== request.object.get("time")) {
+          if (obj.get("time") > request.object.get("time")) {
               throw new AV.Cloud.Error('Invalid update!');
           }
-      })
+          return request.object.save();
+      });
   }
   ```
 
@@ -139,7 +140,9 @@ Please note the difference between **site config file** and **theme config file*
 - Add the deployer in the `deploy` of **site config file**`_config.yml`:
   ```yml
   deploy:
-    # other deployer
+    - type: git
+      repo: // your repo
+      ...
     - type: leancloud_counter_security_sync
   ```
 
@@ -151,7 +154,7 @@ Please note the difference between **site config file** and **theme config file*
 
   ![17](https://lc-cqha0xyi.cn-n1.lcfile.com/b72a9e64579f5b71749d.jpg)
 
-- Click `1`(add_fields), then choose `2`:
+- <del>Click `1`(add_fields), then choose `2`:</del>Do as below "create" setting(choose the user you create):
 
   ![18](https://lc-cqha0xyi.cn-n1.lcfile.com/14a8cb37062693d768ad.jpg)
 

@@ -8,12 +8,12 @@
 .sub-menu .menu-item {
   display: inline-block !important;
 
-  & a {
+  & a, span.exturl {
     padding: initial !important;
     margin: 5px 10px;
   }
 
-  & a:hover {
+  & a:hover, span.exturl:hover {
     background: initial !important;
     color: $sidebar-highlight;
   }
@@ -27,5 +27,12 @@
   &:hover {
     background: #fff !important;
     border-bottom-color: $sidebar-highlight;
+  }
+
+  badges = hexo-config('menu_settings.badges');
+  if not badges {
+    &:after {
+      content: initial;
+    }
   }
 }

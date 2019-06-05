@@ -8,7 +8,7 @@ subtitle: 陈厌起不早
 description: 陈厌起不早
 keywords:
 author: 陈厌
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next-new
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
