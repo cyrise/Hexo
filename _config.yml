@@ -96,7 +96,7 @@ backup:
        coding: git@git.coding.net:eremite/hexo.git,hexo
 
 leancloud_counter_security:
-  enable_sync: false
+  enable_sync: true
   app_id: r3CA3T428SNp3R18KAladbrX-gzGzoHsz
   app_key: WlExOUuyDvOPfMr5Mek0x9St
   username: eremite # Will be asked while deploying if is left blank
