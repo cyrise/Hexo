@@ -8,7 +8,7 @@
   <span class="with-love" id="animate">
     <i class="fa fa-{{ theme.footer.icon.name }}"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">&nbsp;{{ theme.footer.copyright || author }}&nbsp;.</span>
+  <span class="author" itemprop="copyrightHolder">&nbsp;{{ theme.footer.copyright || author }}</span>
 
   {% if config.symbols_count_time.total_symbols %}
     <span class="post-meta-divider">|</span>
