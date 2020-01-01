@@ -325,7 +325,7 @@ read_more_btn: true
 post_meta:
   item_text: true
   created_at: true
-  updated_at:
+  updated_at: false
     enable: true
     another_day: true
   categories: true
@@ -457,7 +457,7 @@ font:
   # Global font settings used for all elements in <body>.
   global:
     external: true
-    family: Lato
+		family: Noto Serif SC
     size:
 
   # Font settings for Headlines (H1, H2, H3, H4, H5, H6).
