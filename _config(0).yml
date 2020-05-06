@@ -104,7 +104,7 @@ leancloud_counter_security:
   username: eremite # Will be asked while deploying if is left blank
   password: 854913486 # Recommmended to be left blank. Will be asked while deploying if is left blank
   
-#lazyload:
+ lazyload:
   enable: false
   onlypost: false
   loadingImg: 
