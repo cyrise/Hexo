@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: next-7
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -94,7 +94,7 @@ backup:
     type: git
     theme: coney,landscape,next
     repository:
-				github: git@github.com:cyrise/Hexo.git,hexo
+				github: git@github.com:cyrise/Hexo.git,Next-7
 # coding: git@git.coding.net:eremite/hexo.git,hexo
 				
 leancloud_counter_security:
