@@ -1,17 +1,41 @@
-// Custom styles.
+//Custom styles.
 
 .post-body {
     color: #333;
 }
 
-//* È¥µôÍ¼Æ¬±ß¿ò */
+/* ÕýÎÄÍ¼Æ¬±ß¿ò¡ýsource\css\_common\components\post*/
 .posts-expand .post-body img {
-    border: 1px;
+   /* border: 1px;*/
     padding: 0px;
+    margin-bottom: 30px;
+    display: block;
+/*    margin: 0px; */
 }
-.post-gallery .post-gallery-img img {
+
+/*.post-gallery .post-gallery-img img {
     padding: 3px;
+}*/
+
+/*Í¼Æ¬×¢ÊÍ*/
+.post-body .figure .caption, .post-body .image-caption {
+	margin: -10px;
 }
 
+a.fancybox.fancybox.img{
+	border-bottom:none;
+}
+	
+.post-gallery .post-gallery-img {
+    display: block;
+    
+  }
+/*Í·Í¼ÏÂ±ß¿ò¡ý.post-body img,*/
+.post-body embed, .post-body iframe,  .post-body video {
+	margin-bottom: 20px;
+}
 
-//ÔÚ\layout\_customÀï
+/*Í¼Æ¬ÒõÓ°¡ý*/
+.posts-expand .post-body img {
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.4);
+}
