@@ -1,0 +1,19 @@
+ssh-keygen -t rsa -C "eremite@live.com" ##然后敲回车##
+hexo d
+hexo d
+hexo clean
+HEXO D
+HEXO D
+hexo d
+hexo clean
+hexo g
+hexo d
+hexo clean
+hexo g
+hexo d
+hexo clean
+hexo g
+hexo d
+hexo clean
+hexo g
+hexo d
